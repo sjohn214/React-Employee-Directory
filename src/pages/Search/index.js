@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import API from "/Users/shannonljohnson-martin/coding/React-Employee-Directory/src/utils/API";
-import Container from "/Users/shannonljohnson-martin/coding/React-Employee-Directory/src/components/Container";
-import SearchForm from "/Users/shannonljohnson-martin/coding/React-Employee-Directory/src/components/SearchForm";
-import SearchResults from "/Users/shannonljohnson-martin/coding/React-Employee-Directory/src/components/SearchResults";
+import API from "../../utils/API";
+import Container from "../../components/Container";
+import SearchForm from "../../components/SearchForm";
+import SearchResults from "../../components/SearchResults";
 
 class Search extends Component {
     state = {
@@ -41,12 +41,15 @@ class Search extends Component {
         return (
             <div>
                 <Container style={{ minHeight: "75% "}}/>
-                <h1 className="text">Employee Directory Search</h1>
+                <br />
+                <br />
+                <br />
+                <h3 className="text">Employee Directory Search</h3>
                 <SearchForm
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
                     employees={this.state.employees}/>
-                <SearchResults results={this.state.results}/>
+                <SearchResults results={this.props.employees}/>
                 <Container/>
             </div>
         )
