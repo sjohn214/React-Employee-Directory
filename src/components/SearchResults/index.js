@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./style.css";
 
-const BASEURL = `https://randomuser.me/api/?gender=female`;
+const BASEURL = `https://randomuser.me/api/?results=50`;
 
 export default function SearchResults(props) {
   const [employees, setEmployees] = useState([]);
 
   const getRandomUsers = async () => {
-    const BASEURL = `https://randomuser.me/api/?gender=female`;
     const response = await axios.get(BASEURL);
     console.log("response", response);
     setEmployees(response.data);
@@ -48,7 +47,10 @@ export default function SearchResults(props) {
         return (
           <tr key={value}>
             <td>{`${name}, ${value}`}</td>
-            <td>{thumbnail}</td>
+            <td className="img"
+                alt="Employee Picture"
+                src={`https://randomuser.me/api/portraits/thumb/women/70${props.results.results[0].picture.thumbnail}.jpg`}>
+            </td>
             <td>{`${title} ${first} ${last}`}</td>
             <td>{email}</td>
             <td>{`${city}, ${state}, ${country}`}</td>
