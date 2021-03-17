@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card({ data }) {
-  return data.map((employees) => (
+  return ((employees) => (
     <Card
       key={employees.id}
       picture={employees.thumbnail}
