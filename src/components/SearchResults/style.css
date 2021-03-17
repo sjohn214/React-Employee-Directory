@@ -1,7 +1,18 @@
 body {
 background-color: rgb(238, 243, 172);
+padding: 10px;
+margin: 10px;
 }
 
 .searchBtn {
     color: rgb(5, 5, 5);
+}
+
+.table thead th {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.category {
+    text-align: justify;
 }

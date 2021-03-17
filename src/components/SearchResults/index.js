@@ -1,6 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import * as ReactBootStrap from "react-bootstrap";
 import "./style.css";
+
 
 
 
@@ -14,8 +16,7 @@ export default function SearchResults(props) {
       "name",
       "gender",
       "email",
-      "location",
-      "operation",
+      "location"
     ];
 
     return headerElement.map((key, index) => {
@@ -41,7 +42,7 @@ export default function SearchResults(props) {
             <td>
               <img src={large} alt="Profile" />
             </td>
-            <td>{`${title}, ${first}, ${last}`}</td>
+            <td>{`${title}. ${first} ${last}`}</td>
            <td>{gender}</td>
             <td>{email}</td>
             <td>{`${city}, ${state}, ${country}`}</td>
@@ -59,15 +60,13 @@ export default function SearchResults(props) {
   };
 
   return (
-    <>
-      <table id="employees">
-        <thead>
-          <tr>{renderHeader()}</tr>
+    <ReactBootStrap.Table id="employees">
+   <thead>
+          <tr nameClass="category">{renderHeader()}</tr>
         </thead>
         <tbody>
           <tr>{renderBody()}</tr>
         </tbody>
-      </table>
-    </>
+  </ReactBootStrap.Table>
   );
 }

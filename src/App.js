@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 // import { BrowserRouter as Route } from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import ExploreEmployees from "./components/ExploreEmployees";
 import Searchbar from "./components/Searchbar";
 import SearchResults from "./components/SearchResults";
 import Card from "./components/Card"
 import Navbar from "./components/Navbar";
+import Row from "./components/Row";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import API from "./utils/API";
@@ -74,8 +72,6 @@ console.log(employees);
       <ExploreEmployees
         handleSortEmployeeByState={handleSortEmployeeByState}
         handleSortEmployeeByGender={handleSortEmployeeByGender}/>
-      <Container />
-      <Col />
       <Row />
       <SearchResults employees={employees}/>
       <Card/>
