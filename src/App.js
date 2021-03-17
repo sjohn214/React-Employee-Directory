@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ExploreEmployees from "./components/ExploreEmployees";
 import Searchbar from "./components/Searchbar";
 import SearchResults from "./components/SearchResults";
-import Card from "./components/Card"
 import Navbar from "./components/Navbar";
 import Row from "./components/Row";
 import Footer from "./components/Footer";
@@ -74,7 +73,6 @@ console.log(employees);
         handleSortEmployeeByGender={handleSortEmployeeByGender}/>
       <Row />
       <SearchResults employees={employees}/>
-      <Card/>
       <br/>
       <br/>
       <br/>

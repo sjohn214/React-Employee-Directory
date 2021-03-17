@@ -19,14 +19,14 @@ The user should be able to:
 * The following image and gif shows the web application's appearance and functionality:
 
 
-![React-Employee-Directory Screenshot](.png) React-Employee-Directory App
+![React-Employee-Directory Screenshot](src/img/ReactAppPic.png) React-Employee-Directory App
 
 ![Reac-Employee-Directory gif](.gif) React-Employee-Directory gif
 
 ## Live URL:
 <a href="https://sjohn214.github.io/React-Employee-Directory/">React-Employee-Directory Git Pages</a>
 
-<a href="">React-Employee-Directory GitHub Repo</a>
+<a href="https://github.com/sjohn214/React-Employee-Directory.git">React-Employee-Directory GitHub Repo</a>
 
 <a href="">React-Employee-Directory Youtube Demo</a>
 
@@ -37,28 +37,29 @@ The user should be able to:
 * HTML page
   * Index.html
   
-![card index.js](.png) Index.js Card file
+![Index.html](src/img/indexHTMLPublic.png) Index.html Public file
 
 * CSS elements 
   * Bootstrap css stlying on Index.html.
   
-![styling](.png) CSS Style file 
+![styling](src/img/CSSstylingPic.png) CSS Style file 
 
 * Javascript page
 
-![App.js](.png) App.js file
+![App.js](src/img/APPJSpic.png) App.js file
 
   * Variables
   * Arrays with objects
   * UseState
   * UseEffect 
+  * Sorting Ascending and Descending
+  * Filtering Employee name through search
   * API Keys
-  * .env and .gitignore
-  * For loops
+  * .gitignore
   * Functions
   * Props
 
-![Conditions](.png) Props and conditions files
+![Search Results](src/img/RenderedSearchResults.png) Search Results rendering files
 
  
 

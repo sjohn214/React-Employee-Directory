@@ -3,10 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootStrap from "react-bootstrap";
 import "./style.css";
 
-
-
-
-
 export default function SearchResults(props) {
  
   const renderHeader = () => {
