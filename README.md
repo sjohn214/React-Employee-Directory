@@ -21,14 +21,14 @@ The user should be able to:
 
 ![React-Employee-Directory Screenshot](src/img/ReactAppPic.png) React-Employee-Directory App
 
-![Reac-Employee-Directory gif](src/img/ReactEmployeeDirectory.gif) React-Employee-Directory gif
+![Reac-Employee-Directory gif](src/img/ReactAppDemo.gif) React-Employee-Directory gif
 
 ## Live URL:
 <a href="https://sjohn214.github.io/React-Employee-Directory/">React-Employee-Directory Git Pages</a>
 
 <a href="https://github.com/sjohn214/React-Employee-Directory.git">React-Employee-Directory GitHub Repo</a>
 
-<a href="https://youtu.be/2i3snye82is">React-Employee-Directory Youtube Demo</a>
+<a href="https://youtu.be/dCsE9cXyd6I">React-Employee-Directory Youtube Demo</a>
 
 ## Summary
 * In this project we will create a user responsive UI application using Reactjs to access a company's Employee Directory. The database for the application uses Random User API and will allow users to sort employees by name and allow users to access external links for further employee research.
