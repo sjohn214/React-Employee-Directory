@@ -1,18 +1,39 @@
 body {
-background-color: rgb(238, 243, 172);
-padding: 10px;
-margin: 10px;
+  background-color: rgb(14, 95, 145);
+  padding: 10px;
+  margin: 10px;
 }
-
+.wrapper {
+  background-color: rgb(194, 196, 190);
+  border-width: 4px;
+  border-style: dashed;
+  border-color: rgb(34, 95, 145);
+}
+.appTitle {
+  font-weight: bold;
+  font-size: 36pt;
+  text-shadow: 2px 2px 5px black;
+  color: rgb(34, 95, 145);
+}
 .searchBtn {
-    color: rgb(5, 5, 5);
+  color: rgb(5, 5, 5);
 }
-
+.searchEmployees {
+  color: rgb(2, 48, 100);
+  font-style: italic;
+  font-weight: bold;
+}
+.cardHeader {
+  background-color: rgb(34, 95, 145);
+  padding: 7.5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(2, 48, 100);
+}
 .table thead th {
-    display: inline-flex;
-    margin: 10px;
+  margin: 10px;
 }
 
 .category {
-    text-align: justify;
+  text-align: center;
 }

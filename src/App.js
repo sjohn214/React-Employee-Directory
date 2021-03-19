@@ -63,7 +63,7 @@ console.log(employees);
       <br />
       <br />
       <br />
-      <h1>React-Employee-Directory</h1>
+      <h1 className="appTitle">React-Employee-Directory</h1>
       <br />
       <br />
       <p className="searchEmployees">Search Employees, sort by State or Gender</p>

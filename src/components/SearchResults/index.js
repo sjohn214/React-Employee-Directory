@@ -34,7 +34,8 @@ export default function SearchResults(props) {
           // <div className="searchData">
             // <table className="searchTable">
           <tr key={value}>
-            <td>{`${name}, ${value}`}</td>
+            <td>{`${name} 
+                ${value}`}</td>
             <td>
               <img src={large} alt="Profile" />
             </td>
@@ -57,10 +58,10 @@ export default function SearchResults(props) {
   return (
     <ReactBootStrap.Table id="employees">
    <thead>
-          <tr nameClass="category">{renderHeader()}</tr>
+          <tr className="category">{renderHeader()}</tr>
         </thead>
         <tbody>
-          <tr>{renderBody()}</tr>
+          {renderBody()}
         </tbody>
   </ReactBootStrap.Table>
   );

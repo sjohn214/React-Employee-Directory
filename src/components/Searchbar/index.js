@@ -12,7 +12,7 @@ export default function Searchbar(props) {
   
     return (
         <div className="maincontainer">
-            <div className="card-header">
+            <div className="cardHeader">
                 <input className="searchbar"
                 type="text"
                 placeholder="Enter Employee Name"
