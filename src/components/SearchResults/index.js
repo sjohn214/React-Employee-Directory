@@ -31,8 +31,8 @@ export default function SearchResults(props) {
       props.employees &&
       props.employees.map(({ id: {name, value}, picture: {large}, name: {title, first, last}, gender, email, location: {city, state, country} }) => {
         return (
-          <div className="searchData">
-            <table className="searchTable">
+          // <div className="searchData">
+            // <table className="searchTable">
           <tr key={value}>
             <td>{`${name}, ${value}`}</td>
             <td>
@@ -48,8 +48,7 @@ export default function SearchResults(props) {
               </button> */}
             {/* </td> */}
           </tr>
-          </table>
-          </div>
+         
         );
       })
     );
