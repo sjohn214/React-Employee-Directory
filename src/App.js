@@ -30,10 +30,10 @@ function App() {
 
     function handleSortEmployeeByState() {
       if (!sort) {
-        setEmployees(employees.sort((a,b) => (a.state > b.state) ? 1 : -1));
+        setEmployees(employees.sort((a,b) => (a.location.state > b.location.state) ? 1 : -1));
         setSort(true);
       } else {
-        setEmployees(employees.sort((a,b) => (a.state > b.state) ? -1 : 1));
+        setEmployees(employees.sort((a,b) => (a.location.state > b.location.state) ? -1 : 1));
         setSort(false);
       }
     }
